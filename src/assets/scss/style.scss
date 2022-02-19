@@ -1,0 +1,13 @@
+/*================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.vs--multiple.vs--disabled >
+.vs__dropdown-toggle >
+.vs__selected-options >
+.vs__selected {
+    background-color: #6bc9bf !important;
+}
