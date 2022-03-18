@@ -1,27 +1,27 @@
 export default [
     {
-        path: '/auxiliares',
+        path: '/usuarios',
         name: 'apps-users-list',
         component: () => import('@/views/apps/user/users-list/UsersList.vue'),
         meta: {
-            pageTitle: 'Auxiliares',
+            pageTitle: 'Usuários',
             breadcrumb: [
                 {
-                    text: 'Auxiliares',
+                    text: 'Usuários',
                     active: true,
                 },
             ],
         },
     },
     {
-        path: '/auxiliares/novo',
+        path: '/usuarios/novo',
         name: 'apps-users-create',
         component: () => import('@/views/apps/user/users-edit/UsersEdit.vue'),
         meta: {
-            pageTitle: 'Auxiliares',
+            pageTitle: 'Usuários',
             breadcrumb: [
                 {
-                    text: 'Auxiliares',
+                    text: 'Usuários',
                     to: { name: 'apps-users-list' },
                 },
                 {
@@ -32,14 +32,14 @@ export default [
         },
     },
     {
-        path: '/auxiliar/:id/editar',
+        path: '/usuario/:id/editar',
         name: 'apps-users-edit',
         component: () => import('@/views/apps/user/users-edit/UsersEdit.vue'),
         meta: {
-            pageTitle: 'Auxiliares',
+            pageTitle: 'Usuários',
             breadcrumb: [
                 {
-                    text: 'Auxiliares',
+                    text: 'Usuários',
                     to: { name: 'apps-users-list' },
                 },
                 {
